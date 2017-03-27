@@ -1,0 +1,83 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = #1041#1088#1072#1091#1079#1077#1088
+  ClientHeight = 681
+  ClientWidth = 818
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 0
+    Top = 0
+    Width = 75
+    Height = 25
+    Caption = #1053#1072#1079#1072#1076
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 72
+    Top = 0
+    Width = 75
+    Height = 25
+    Caption = #1042#1087#1077#1088#1077#1076
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 144
+    Top = 0
+    Width = 75
+    Height = 25
+    Caption = #1044#1086#1084#1086#1081
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 216
+    Top = 0
+    Width = 75
+    Height = 25
+    Caption = #1048#1089#1082#1072#1090#1100
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Left = 297
+    Top = 2
+    Width = 416
+    Height = 21
+    TabOrder = 4
+    Text = 'http://'
+    OnChange = Edit1Change
+  end
+  object Button5: TButton
+    Left = 727
+    Top = 0
+    Width = 75
+    Height = 25
+    Caption = #1055#1077#1088#1077#1081#1090#1080
+    TabOrder = 5
+    OnClick = Button5Click
+  end
+  object WebBrowser1: TWebBrowser
+    Left = 0
+    Top = 31
+    Width = 802
+    Height = 642
+    TabOrder = 6
+    ControlData = {
+      4C000000E45200005A4200000000000000000000000000000000000000000000
+      000000004C000000000000000000000001000000E0D057007335CF11AE690800
+      2B2E126208000000000000004C0000000114020000000000C000000000000046
+      8000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000100000000000000000000000000000000000000}
+  end
+end
